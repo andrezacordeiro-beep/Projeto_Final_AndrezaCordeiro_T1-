@@ -10,7 +10,7 @@ st.title(' Análise de Vendas - (Alemanha 2019)')
 # Função com cache para otimizar o carregamento dos dados
 @st.cache_data
 def load_data():
-    df = pd.read_csv('query_valida.csv')
+    df = pd.read_csv('data/processed/query_valida.csv')
     return df
 
 # Feedback visual de carregamento na tela

@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+st.title('Análise de Vendas')
 
 df = pd.read_csv('processed/query_valida.csv')
 st.dataframe(df.head(10))

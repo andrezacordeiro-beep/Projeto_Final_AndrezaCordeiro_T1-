@@ -251,6 +251,7 @@ sns.boxplot(data = query_valida, y ="GENERO_CLIENTE", x="VALOR_VENDIDO", color="
 
 plt.title("Boxplot do genero de clientes")
 plt.ylabel("Gênero do Cliente")
+plt.xlabel("Valor Vendido")
 plt.tight_layout()
 
 plt.savefig(

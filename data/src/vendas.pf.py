@@ -36,7 +36,7 @@ print("Carregamento de dados(extração)")
 #    Objetivo: Importar a base bruta (raw) e informações iniciais sobre os dados.
 # ============================================================
  
-caminho_entrada = r"C:\Users\ANDREZA\Desktop\Projeto_Final_AndrezaCordeiro_QA VDBI 20261 2\data\raw\vendas.pf.csv"
+caminho_entrada = r"C:\Users\ANDREZA\Desktop\Projeto_Final_AndrezaCordeiro_T1-\data\raw\vendas.pf.csv"
 
 # Ignorar esse texto '#N/D' e transformá-lo em um valor nulo/em branco (representado por NaN)
 vendas_csv = pd.read_csv(caminho_entrada, na_values=['#N/D'])

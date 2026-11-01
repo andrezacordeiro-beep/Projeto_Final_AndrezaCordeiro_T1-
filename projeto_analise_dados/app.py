@@ -29,7 +29,7 @@ canal = st.sidebar.selectbox(
 )
 
 data_minima = df['data'].min()
-data_selecionada = st.sidebar.date_input('Data ', data_minima)
+data_selecionada = st.sidebar.date_input('Data Inicial:', data_minima)
 
 # Filtrando os dados com base no canal e na data selecionados pelo usuário
 df_filtrado = df[  

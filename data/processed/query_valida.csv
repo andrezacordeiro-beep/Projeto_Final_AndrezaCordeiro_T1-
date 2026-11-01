@@ -1,257 +1,257 @@
 ID_CLIENTE,NOME_CLIENTE,GENERO_CLIENTE,ID_PAIS,PAIS,CIDADE,ID_CIDADE,CLIENTE_ATIVO,ID_PRODUTO,ID_CANAL,QUANTIDADE_VENDIDA,VALOR_VENDIDO,DATA
-1604,Delia,F,52776,Germany,Freiburg,51521,A,47,3,1,30.87,01/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,126,3,1,30.15,01/01/2019
-247,Jocelyn,F,52776,Germany,Bad Schwartau,51156,A,119,4,1,7.15,01/01/2019
-1604,Delia,F,52776,Germany,Freiburg,51521,A,40,3,1,47.69,01/01/2019
-3685,Maisie,F,52776,Germany,Murnau,51934,A,40,3,1,47.69,01/01/2019
-3685,Maisie,F,52776,Germany,Murnau,51934,A,130,3,1,94.49,01/01/2019
-18905,Phil,M,52776,Germany,Weimar,52500,A,130,3,1,94.49,01/01/2019
-1786,Horatio,M,52776,Germany,Backnang,51152,A,127,3,1,51.79,01/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,127,3,1,51.79,01/01/2019
-3685,Maisie,F,52776,Germany,Murnau,51934,A,127,3,1,51.79,01/01/2019
-2397,Beryl,M,52776,Germany,Koeln,51735,A,130,3,1,94.49,01/01/2019
-1786,Horatio,M,52776,Germany,Backnang,51152,A,128,3,1,39.19,01/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,128,3,1,39.19,01/01/2019
-2748,Lolita,F,52776,Germany,Heidelberg,51654,A,128,3,1,39.19,01/01/2019
-3685,Maisie,F,52776,Germany,Murnau,51934,A,128,3,1,39.19,01/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,125,3,1,16.63,01/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,123,3,1,64.99,01/01/2019
-3732,Morgan,M,52776,Germany,Ravensburg,52159,A,48,3,1,13.13,01/01/2019
-11131,Uraih,M,52776,Germany,Schwaebisch Gmuend,52300,A,23,3,1,24.08,02/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,148,3,1,29.39,02/01/2019
-11131,Uraih,M,52776,Germany,Schwaebisch Gmuend,52300,A,25,3,1,126.99,02/01/2019
-3619,Libby,F,52776,Germany,Warstein,52497,A,29,3,1,553.99,02/01/2019
-1369,Van,M,52776,Germany,Konstanz,51736,A,30,3,1,10.79,02/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,30,3,1,10.79,02/01/2019
-1442,Zillah,F,52776,Germany,Schwaebisch Gmuend,52300,A,30,3,1,10.79,02/01/2019
-1786,Horatio,M,52776,Germany,Backnang,51152,A,30,3,1,10.79,02/01/2019
-2748,Lolita,F,52776,Germany,Heidelberg,51654,A,30,3,1,10.79,02/01/2019
-38054,Demetria,M,52776,Germany,Konstanz,51736,A,30,3,1,10.79,02/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,35,3,1,54.45,02/01/2019
-1442,Zillah,F,52776,Germany,Schwaebisch Gmuend,52300,A,33,3,1,47.39,02/01/2019
-11131,Uraih,M,52776,Germany,Schwaebisch Gmuend,52300,A,31,3,1,9.71,02/01/2019
-1369,Van,M,52776,Germany,Konstanz,51736,A,31,3,1,9.71,02/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,31,3,1,9.71,02/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,31,3,1,9.71,02/01/2019
-1369,Van,M,52776,Germany,Konstanz,51736,A,146,3,1,16.79,02/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,146,3,1,16.79,02/01/2019
-1442,Zillah,F,52776,Germany,Schwaebisch Gmuend,52300,A,146,3,1,16.79,02/01/2019
-2748,Lolita,F,52776,Germany,Heidelberg,51654,A,146,3,1,16.79,02/01/2019
-11131,Uraih,M,52776,Germany,Schwaebisch Gmuend,52300,A,146,3,1,16.79,02/01/2019
-1369,Van,M,52776,Germany,Konstanz,51736,A,140,3,1,41.99,02/01/2019
-1442,Zillah,F,52776,Germany,Schwaebisch Gmuend,52300,A,140,3,1,41.99,02/01/2019
-2748,Lolita,F,52776,Germany,Heidelberg,51654,A,140,3,1,41.99,02/01/2019
-11131,Uraih,M,52776,Germany,Schwaebisch Gmuend,52300,A,140,3,1,41.99,02/01/2019
-1369,Van,M,52776,Germany,Konstanz,51736,A,148,3,1,29.39,02/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,148,3,1,29.39,02/01/2019
-1442,Zillah,F,52776,Germany,Schwaebisch Gmuend,52300,A,148,3,1,29.39,02/01/2019
-1786,Horatio,M,52776,Germany,Backnang,51152,A,148,3,1,29.39,02/01/2019
-1369,Van,M,52776,Germany,Konstanz,51736,A,25,3,1,126.99,02/01/2019
-23565,Tyrone,M,52776,Germany,Saarbruecken,52277,A,18,3,1,1674.39,03/01/2019
-3732,Morgan,M,52776,Germany,Ravensburg,52159,A,30,3,1,10.83,03/01/2019
-204,Manus,M,52776,Germany,Koeln,51735,A,40,3,1,47.86,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,125,3,1,16.86,04/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,40,3,1,47.86,04/01/2019
-1786,Horatio,M,52776,Germany,Backnang,51152,A,40,3,1,47.86,04/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,40,3,1,47.86,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,40,3,1,47.86,04/01/2019
-29287,Gwyn,M,52776,Germany,Murnau,51934,A,40,3,1,47.86,04/01/2019
-31361,Priscilla,M,52776,Germany,Murnau,51934,A,40,3,1,47.86,04/01/2019
-2229,Trudy,M,52776,Germany,Freising,51522,A,40,4,1,46.79,04/01/2019
-9347,Devona,F,52776,Germany,Nuernberg,51996,A,37,3,1,62.69,04/01/2019
-9347,Devona,F,52776,Germany,Nuernberg,51996,A,39,3,1,39.89,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,45,3,1,48.36,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,41,3,1,47.69,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,42,3,1,48.36,04/01/2019
-31361,Priscilla,M,52776,Germany,Murnau,51934,A,47,3,1,30.81,04/01/2019
-2229,Trudy,M,52776,Germany,Freising,51522,A,47,4,1,29.94,04/01/2019
-1364,Valentina,F,52776,Germany,Heidelberg,51654,A,48,3,1,13.13,04/01/2019
-2748,Lolita,F,52776,Germany,Heidelberg,51654,A,48,3,1,13.13,04/01/2019
-11131,Uraih,M,52776,Germany,Schwaebisch Gmuend,52300,A,48,3,1,13.13,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,117,3,1,10.94,04/01/2019
-11131,Uraih,M,52776,Germany,Schwaebisch Gmuend,52300,A,117,3,1,10.94,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,119,3,1,8.51,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,115,3,1,9.3,04/01/2019
-1369,Van,M,52776,Germany,Konstanz,51736,A,116,3,1,12.4,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,126,3,1,30.57,04/01/2019
-11131,Uraih,M,52776,Germany,Schwaebisch Gmuend,52300,A,126,3,1,30.57,04/01/2019
-1369,Van,M,52776,Germany,Konstanz,51736,A,127,3,1,38.67,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,127,3,1,38.67,04/01/2019
-1786,Horatio,M,52776,Germany,Backnang,51152,A,113,3,1,27.59,04/01/2019
-1102,Gaylord,M,52776,Germany,Bad Schwartau,51156,A,130,3,1,125.99,04/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,130,3,1,125.99,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,130,3,1,125.99,04/01/2019
-18905,Phil,M,52776,Germany,Weimar,52500,A,130,3,1,125.99,04/01/2019
-2229,Trudy,M,52776,Germany,Freising,51522,A,130,4,1,94.49,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,130,4,1,94.49,04/01/2019
-4369,Gilda,F,52776,Germany,Murnau,51934,A,128,3,1,29.26,04/01/2019
-627,Wendell,M,52776,Germany,Halle,51647,A,40,3,1,47.86,04/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,14,3,1,1259.99,05/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,17,3,1,1550.99,05/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,127,3,1,51.79,05/01/2019
-1442,Zillah,F,52776,Germany,Schwaebisch Gmuend,52300,A,127,3,1,51.79,05/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,123,3,1,64.99,05/01/2019
-1442,Zillah,F,52776,Germany,Schwaebisch Gmuend,52300,A,123,3,1,64.99,05/01/2019
-1442,Zillah,F,52776,Germany,Schwaebisch Gmuend,52300,A,126,3,1,30.15,05/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,128,3,1,39.19,05/01/2019
-1442,Zillah,F,52776,Germany,Schwaebisch Gmuend,52300,A,128,3,1,39.19,05/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,125,3,1,16.63,05/01/2019
-1442,Zillah,F,52776,Germany,Schwaebisch Gmuend,52300,A,125,3,1,16.63,05/01/2019
-1441,Zenia,F,52776,Germany,Schwaebisch Gmuend,52300,A,18,3,1,1728.99,05/01/2019
-1102,Gaylord,M,52776,Germany,Bad Schwartau,51156,A,128,3,1,39.19,05/01/2019
-1786,Horatio,M,52776,Germany,Backnang,51152,A,114,3,1,22.79,06/01/2019
-2229,Trudy,M,52776,Germany,Freising,51522,A,119,4,1,7.15,06/01/2019
-2229,Trudy,M,52776,Germany,Freising,51522,A,118,3,1,8.15,06/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,117,3,1,10.79,06/01/2019
-2748,Lolita,F,52776,Germany,Heidelberg,51654,A,117,3,1,10.79,06/01/2019
-2229,Trudy,M,52776,Germany,Freising,51522,A,117,4,1,9.17,06/01/2019
-2405,Beverly,F,52776,Germany,Koeln,51735,A,117,4,1,9.17,06/01/2019
-1682,Galen,M,52776,Germany,Bad Homburg,51153,A,119,3,1,8.39,06/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,119,3,1,8.39,06/01/2019
-2229,Trudy,M,52776,Germany,Freising,51522,A,115,3,1,9.17,06/01/2019
-1786,Horatio,M,52776,Germany,Backnang,51152,A,116,3,1,14.39,06/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,116,3,1,14.39,06/01/2019
-2229,Trudy,M,52776,Germany,Freising,51522,A,116,3,1,14.39,06/01/2019
-35518,Hannah,F,52776,Germany,Weimar,52500,A,36,3,1,52.01,06/01/2019
-18905,Phil,M,52776,Germany,Weimar,52500,A,130,3,1,95.81,06/01/2019
-2229,Trudy,M,52776,Germany,Freising,51522,A,119,3,1,8.39,06/01/2019
-2748,Lolita,F,52776,Germany,Heidelberg,51654,A,119,3,1,8.39,06/01/2019
-1949,Misha,M,52776,Germany,Neuss,51975,A,114,3,1,22.79,06/01/2019
-3793,Petula,M,52776,Germany,Koeln,51735,A,20,3,1,602.39,07/01/2019
-48811,Babetta,M,52776,Germany,Bonn,51207,A,26,3,1,167.99,07/01/2019
-874,Price,M,52776,Germany,Saarbruecken,52277,A,31,3,1,9.85,07/01/2019
-3790,Pete,M,52776,Germany,Koeln,51735,A,31,3,1,9.85,07/01/2019
-797,Stacy,M,52776,Germany,Hamburg,51648,A,28,3,1,213.99,07/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,28,3,1,213.99,07/01/2019
-27323,Brenna,F,52776,Germany,Koeln,51735,A,29,3,1,561.75,07/01/2019
-1299,Thorpe,M,52776,Germany,Erlangen,51456,A,30,3,1,10.94,07/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,30,3,1,10.94,07/01/2019
-3790,Pete,M,52776,Germany,Koeln,51735,A,30,3,1,10.94,07/01/2019
-797,Stacy,M,52776,Germany,Hamburg,51648,A,32,3,1,74.46,07/01/2019
-904,Oprah,F,52776,Germany,Backnang,51152,A,32,3,1,74.46,07/01/2019
-797,Stacy,M,52776,Germany,Hamburg,51648,A,30,3,1,10.94,07/01/2019
-874,Price,M,52776,Germany,Saarbruecken,52277,A,30,3,1,10.94,07/01/2019
-3136,Lyle,M,52776,Germany,Murnau,51934,A,37,3,1,59.08,07/01/2019
-15443,Rosamond,F,52776,Germany,Weimar,52500,A,37,3,1,59.08,07/01/2019
-3043,Tamara,M,52776,Germany,Ravensburg,52159,A,36,4,1,49.01,07/01/2019
-2929,Rama,M,52776,Germany,Warstein,52497,A,35,3,1,54.92,07/01/2019
-3136,Lyle,M,52776,Germany,Murnau,51934,A,35,3,1,54.92,07/01/2019
-1706,Ginna,F,52776,Germany,Koeln,51735,A,35,4,1,53.89,07/01/2019
-3043,Tamara,M,52776,Germany,Ravensburg,52159,A,35,4,1,53.89,07/01/2019
-3043,Tamara,M,52776,Germany,Ravensburg,52159,A,38,4,1,32.33,07/01/2019
-2647,Letitia,F,52776,Germany,Warstein,52497,A,39,3,1,40.03,07/01/2019
-15443,Rosamond,F,52776,Germany,Weimar,52500,A,34,3,1,43.56,07/01/2019
-3043,Tamara,M,52776,Germany,Ravensburg,52159,A,34,4,1,43.11,07/01/2019
-627,Wendell,M,52776,Germany,Halle,51647,A,45,3,1,47.69,07/01/2019
-3169,Lyndon,M,52776,Germany,Murnau,51934,A,45,3,1,47.69,07/01/2019
-3169,Lyndon,M,52776,Germany,Murnau,51934,A,41,3,1,47.45,07/01/2019
-627,Wendell,M,52776,Germany,Halle,51647,A,42,3,1,47.69,07/01/2019
-3169,Lyndon,M,52776,Germany,Murnau,51934,A,42,3,1,47.69,07/01/2019
-797,Stacy,M,52776,Germany,Hamburg,51648,A,40,3,1,47.69,07/01/2019
-915,Ora,M,52776,Germany,Backnang,51152,A,40,3,1,47.69,07/01/2019
-1439,Zenas,M,52776,Germany,Schwaebisch Gmuend,52300,A,40,3,1,47.69,07/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,40,3,1,47.69,07/01/2019
-2794,Magda,M,52776,Germany,Rosenheim,52171,A,40,3,1,47.69,07/01/2019
-2929,Rama,M,52776,Germany,Warstein,52497,A,40,3,1,47.69,07/01/2019
-3136,Lyle,M,52776,Germany,Murnau,51934,A,40,3,1,47.69,07/01/2019
-3169,Lyndon,M,52776,Germany,Murnau,51934,A,40,3,1,47.69,07/01/2019
-3790,Pete,M,52776,Germany,Koeln,51735,A,40,3,1,47.69,07/01/2019
-2304,Wynnee,M,52776,Germany,Frankfurt am Main,51517,A,40,4,1,47.45,07/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,46,3,1,25.18,07/01/2019
-3039,Sampson,M,52776,Germany,Ravensburg,52159,A,46,3,1,25.18,07/01/2019
-3790,Pete,M,52776,Germany,Koeln,51735,A,46,3,1,25.18,07/01/2019
-204,Manus,M,52776,Germany,Koeln,51735,A,47,3,1,30.55,07/01/2019
-1299,Thorpe,M,52776,Germany,Erlangen,51456,A,47,3,1,30.55,07/01/2019
-2929,Rama,M,52776,Germany,Warstein,52497,A,47,3,1,30.55,07/01/2019
-2304,Wynnee,M,52776,Germany,Frankfurt am Main,51517,A,47,4,1,29.58,07/01/2019
-797,Stacy,M,52776,Germany,Hamburg,51648,A,46,3,1,25.18,07/01/2019
-1299,Thorpe,M,52776,Germany,Erlangen,51456,A,46,3,1,25.18,07/01/2019
-1438,Zel,M,52776,Germany,Schwaebisch Gmuend,52300,A,46,3,1,25.18,07/01/2019
-1438,Zel,M,52776,Germany,Schwaebisch Gmuend,52300,A,48,3,1,13.13,07/01/2019
-1637,Emmanuel,M,52776,Germany,Hannover,51649,A,48,3,1,13.13,07/01/2019
-3039,Sampson,M,52776,Germany,Ravensburg,52159,A,48,3,1,13.13,07/01/2019
-3790,Pete,M,52776,Germany,Koeln,51735,A,48,3,1,13.13,07/01/2019
-48811,Babetta,M,52776,Germany,Bonn,51207,A,48,3,1,13.13,07/01/2019
-27323,Brenna,F,52776,Germany,Koeln,51735,A,29,4,1,546.4,07/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,23,3,1,23.75,07/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,26,3,1,167.99,07/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,25,3,1,126.55,07/01/2019
-48811,Babetta,M,52776,Germany,Bonn,51207,A,23,3,1,24.08,08/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,148,3,1,29.39,08/01/2019
-48811,Babetta,M,52776,Germany,Bonn,51207,A,25,3,1,128.32,08/01/2019
-1439,Zenas,M,52776,Germany,Schwaebisch Gmuend,52300,A,31,3,1,9.71,08/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,31,3,1,9.71,08/01/2019
-4191,Orilla,F,52776,Germany,Koeln,51735,A,28,3,1,216.99,08/01/2019
-48811,Babetta,M,52776,Germany,Bonn,51207,A,28,3,1,216.99,08/01/2019
-48811,Babetta,M,52776,Germany,Bonn,51207,A,27,3,1,49.27,08/01/2019
-915,Ora,M,52776,Germany,Backnang,51152,A,30,3,1,10.83,08/01/2019
-1439,Zenas,M,52776,Germany,Schwaebisch Gmuend,52300,A,30,3,1,10.83,08/01/2019
-1637,Emmanuel,M,52776,Germany,Hannover,51649,A,30,3,1,10.83,08/01/2019
-4191,Orilla,F,52776,Germany,Koeln,51735,A,30,3,1,10.83,08/01/2019
-38054,Demetria,M,52776,Germany,Konstanz,51736,A,30,3,1,10.83,08/01/2019
-1706,Ginna,F,52776,Germany,Koeln,51735,A,35,3,1,53.7,08/01/2019
-2304,Wynnee,M,52776,Germany,Frankfurt am Main,51517,A,35,3,1,53.7,08/01/2019
-3169,Lyndon,M,52776,Germany,Murnau,51934,A,35,3,1,53.7,08/01/2019
-15443,Rosamond,F,52776,Germany,Weimar,52500,A,35,3,1,53.7,08/01/2019
-4191,Orilla,F,52776,Germany,Koeln,51735,A,31,3,1,9.71,08/01/2019
-48811,Babetta,M,52776,Germany,Bonn,51207,A,31,3,1,9.71,08/01/2019
-3043,Tamara,M,52776,Germany,Ravensburg,52159,A,34,3,1,42.96,08/01/2019
-1439,Zenas,M,52776,Germany,Schwaebisch Gmuend,52300,A,146,3,1,16.79,08/01/2019
-1637,Emmanuel,M,52776,Germany,Hannover,51649,A,146,3,1,16.79,08/01/2019
-4191,Orilla,F,52776,Germany,Koeln,51735,A,146,3,1,16.79,08/01/2019
-48811,Babetta,M,52776,Germany,Bonn,51207,A,146,3,1,16.79,08/01/2019
-1637,Emmanuel,M,52776,Germany,Hannover,51649,A,140,3,1,41.99,08/01/2019
-4191,Orilla,F,52776,Germany,Koeln,51735,A,140,3,1,41.99,08/01/2019
-48811,Babetta,M,52776,Germany,Bonn,51207,A,140,3,1,41.99,08/01/2019
-4191,Orilla,F,52776,Germany,Koeln,51735,A,148,3,1,29.39,08/01/2019
-915,Ora,M,52776,Germany,Backnang,51152,A,148,3,1,29.39,08/01/2019
-1439,Zenas,M,52776,Germany,Schwaebisch Gmuend,52300,A,148,3,1,29.39,08/01/2019
-4191,Orilla,F,52776,Germany,Koeln,51735,A,25,3,1,128.32,08/01/2019
-1655,Eve,F,52776,Germany,Ravensburg,52159,A,45,3,1,47.86,09/01/2019
-2929,Rama,M,52776,Germany,Warstein,52497,A,119,4,1,7.15,09/01/2019
-1655,Eve,F,52776,Germany,Ravensburg,52159,A,43,3,1,48.36,09/01/2019
-1655,Eve,F,52776,Germany,Ravensburg,52159,A,42,3,1,47.86,09/01/2019
-2407,Biddy,M,52776,Germany,Dresden,51397,A,40,3,1,48.36,09/01/2019
-2794,Magda,M,52776,Germany,Rosenheim,52171,A,40,3,1,48.36,09/01/2019
-14681,Sammy,F,52776,Germany,Konstanz,51736,A,40,3,1,48.36,09/01/2019
-29313,Letitia,F,52776,Germany,Schwaebisch Gmuend,52300,A,47,3,1,30.44,09/01/2019
-29313,Letitia,F,52776,Germany,Schwaebisch Gmuend,52300,A,48,3,1,12.95,09/01/2019
-2929,Rama,M,52776,Germany,Warstein,52497,A,118,3,1,8.18,09/01/2019
-2929,Rama,M,52776,Germany,Warstein,52497,A,117,3,1,10.79,09/01/2019
-2929,Rama,M,52776,Germany,Warstein,52497,A,115,3,1,9.2,09/01/2019
-1439,Zenas,M,52776,Germany,Schwaebisch Gmuend,52300,A,116,3,1,14.39,09/01/2019
-2929,Rama,M,52776,Germany,Warstein,52497,A,116,3,1,14.39,09/01/2019
-3039,Sampson,M,52776,Germany,Ravensburg,52159,A,128,3,1,29.39,09/01/2019
-3790,Pete,M,52776,Germany,Koeln,51735,A,128,3,1,29.39,09/01/2019
-33846,Winston,M,52776,Germany,Bremen,51215,A,128,3,1,29.39,09/01/2019
-35834,Rayburn,M,52776,Germany,Heilbronn,51656,A,128,3,1,29.39,09/01/2019
-2407,Biddy,M,52776,Germany,Dresden,51397,A,130,3,1,94.49,09/01/2019
-2429,Brand,M,52776,Germany,Kiel,51727,A,130,3,1,94.49,09/01/2019
-1299,Thorpe,M,52776,Germany,Erlangen,51456,A,129,3,1,201.76,09/01/2019
-3039,Sampson,M,52776,Germany,Ravensburg,52159,A,129,3,1,201.76,09/01/2019
-3039,Sampson,M,52776,Germany,Ravensburg,52159,A,127,3,1,38.84,09/01/2019
-3790,Pete,M,52776,Germany,Koeln,51735,A,127,3,1,38.84,09/01/2019
-35834,Rayburn,M,52776,Germany,Heilbronn,51656,A,127,3,1,38.84,09/01/2019
-35834,Rayburn,M,52776,Germany,Heilbronn,51656,A,125,3,1,16.59,09/01/2019
-35834,Rayburn,M,52776,Germany,Heilbronn,51656,A,123,3,1,65.9,09/01/2019
-3039,Sampson,M,52776,Germany,Ravensburg,52159,A,125,3,1,16.59,09/01/2019
-3790,Pete,M,52776,Germany,Koeln,51735,A,125,3,1,16.59,09/01/2019
-3039,Sampson,M,52776,Germany,Ravensburg,52159,A,126,3,1,30.12,09/01/2019
-35834,Rayburn,M,52776,Germany,Heilbronn,51656,A,126,3,1,30.12,09/01/2019
-1439,Zenas,M,52776,Germany,Schwaebisch Gmuend,52300,A,119,3,1,8.39,09/01/2019
-2929,Rama,M,52776,Germany,Warstein,52497,A,119,3,1,8.39,09/01/2019
-1655,Eve,F,52776,Germany,Ravensburg,52159,A,41,3,1,48.36,09/01/2019
-2304,Wynnee,M,52776,Germany,Frankfurt am Main,51517,A,15,3,1,999.99,10/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,19,3,1,62.15,10/01/2019
-904,Oprah,F,52776,Germany,Backnang,51152,A,20,3,1,599.99,10/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,20,3,1,599.99,10/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,13,3,1,1232.16,10/01/2019
-35834,Rayburn,M,52776,Germany,Heilbronn,51656,A,13,3,1,1232.16,10/01/2019
-915,Ora,M,52776,Germany,Backnang,51152,A,14,3,1,1264.4,10/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,14,3,1,1264.4,10/01/2019
-29313,Letitia,F,52776,Germany,Schwaebisch Gmuend,52300,A,14,3,1,1264.4,10/01/2019
-1637,Emmanuel,M,52776,Germany,Hannover,51649,A,17,3,1,1495.99,10/01/2019
-1948,Miranda,F,52776,Germany,Neuss,51975,A,17,3,1,1495.99,10/01/2019
-44,Sada,F,52776,Germany,Cottbus,51342,A,24,3,1,48.92,10/01/2019
-44733,Reginald,M,52776,Germany,Duesseldorf,51400,A,24,3,1,48.92,10/01/2019
-2349,Anne,F,52776,Germany,Ravensburg,52159,A,18,3,1,1697.83,10/01/2019
+1604,Delia,F,52776,Alemanha,Freiburg,51521,A,47,3,1,30.87,01/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,126,3,1,30.15,01/01/2019
+247,Jocelyn,F,52776,Alemanha,Bad Schwartau,51156,A,119,4,1,7.15,01/01/2019
+1604,Delia,F,52776,Alemanha,Freiburg,51521,A,40,3,1,47.69,01/01/2019
+3685,Maisie,F,52776,Alemanha,Murnau,51934,A,40,3,1,47.69,01/01/2019
+3685,Maisie,F,52776,Alemanha,Murnau,51934,A,130,3,1,94.49,01/01/2019
+18905,Phil,M,52776,Alemanha,Weimar,52500,A,130,3,1,94.49,01/01/2019
+1786,Horatio,M,52776,Alemanha,Backnang,51152,A,127,3,1,51.79,01/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,127,3,1,51.79,01/01/2019
+3685,Maisie,F,52776,Alemanha,Murnau,51934,A,127,3,1,51.79,01/01/2019
+2397,Beryl,M,52776,Alemanha,Koeln,51735,A,130,3,1,94.49,01/01/2019
+1786,Horatio,M,52776,Alemanha,Backnang,51152,A,128,3,1,39.19,01/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,128,3,1,39.19,01/01/2019
+2748,Lolita,F,52776,Alemanha,Heidelberg,51654,A,128,3,1,39.19,01/01/2019
+3685,Maisie,F,52776,Alemanha,Murnau,51934,A,128,3,1,39.19,01/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,125,3,1,16.63,01/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,123,3,1,64.99,01/01/2019
+3732,Morgan,M,52776,Alemanha,Ravensburg,52159,A,48,3,1,13.13,01/01/2019
+11131,Uraih,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,23,3,1,24.08,02/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,148,3,1,29.39,02/01/2019
+11131,Uraih,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,25,3,1,126.99,02/01/2019
+3619,Libby,F,52776,Alemanha,Warstein,52497,A,29,3,1,553.99,02/01/2019
+1369,Van,M,52776,Alemanha,Konstanz,51736,A,30,3,1,10.79,02/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,30,3,1,10.79,02/01/2019
+1442,Zillah,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,30,3,1,10.79,02/01/2019
+1786,Horatio,M,52776,Alemanha,Backnang,51152,A,30,3,1,10.79,02/01/2019
+2748,Lolita,F,52776,Alemanha,Heidelberg,51654,A,30,3,1,10.79,02/01/2019
+38054,Demetria,M,52776,Alemanha,Konstanz,51736,A,30,3,1,10.79,02/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,35,3,1,54.45,02/01/2019
+1442,Zillah,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,33,3,1,47.39,02/01/2019
+11131,Uraih,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,31,3,1,9.71,02/01/2019
+1369,Van,M,52776,Alemanha,Konstanz,51736,A,31,3,1,9.71,02/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,31,3,1,9.71,02/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,31,3,1,9.71,02/01/2019
+1369,Van,M,52776,Alemanha,Konstanz,51736,A,146,3,1,16.79,02/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,146,3,1,16.79,02/01/2019
+1442,Zillah,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,146,3,1,16.79,02/01/2019
+2748,Lolita,F,52776,Alemanha,Heidelberg,51654,A,146,3,1,16.79,02/01/2019
+11131,Uraih,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,146,3,1,16.79,02/01/2019
+1369,Van,M,52776,Alemanha,Konstanz,51736,A,140,3,1,41.99,02/01/2019
+1442,Zillah,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,140,3,1,41.99,02/01/2019
+2748,Lolita,F,52776,Alemanha,Heidelberg,51654,A,140,3,1,41.99,02/01/2019
+11131,Uraih,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,140,3,1,41.99,02/01/2019
+1369,Van,M,52776,Alemanha,Konstanz,51736,A,148,3,1,29.39,02/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,148,3,1,29.39,02/01/2019
+1442,Zillah,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,148,3,1,29.39,02/01/2019
+1786,Horatio,M,52776,Alemanha,Backnang,51152,A,148,3,1,29.39,02/01/2019
+1369,Van,M,52776,Alemanha,Konstanz,51736,A,25,3,1,126.99,02/01/2019
+23565,Tyrone,M,52776,Alemanha,Saarbruecken,52277,A,18,3,1,1674.39,03/01/2019
+3732,Morgan,M,52776,Alemanha,Ravensburg,52159,A,30,3,1,10.83,03/01/2019
+204,Manus,M,52776,Alemanha,Koeln,51735,A,40,3,1,47.86,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,125,3,1,16.86,04/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,40,3,1,47.86,04/01/2019
+1786,Horatio,M,52776,Alemanha,Backnang,51152,A,40,3,1,47.86,04/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,40,3,1,47.86,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,40,3,1,47.86,04/01/2019
+29287,Gwyn,M,52776,Alemanha,Murnau,51934,A,40,3,1,47.86,04/01/2019
+31361,Priscilla,M,52776,Alemanha,Murnau,51934,A,40,3,1,47.86,04/01/2019
+2229,Trudy,M,52776,Alemanha,Freising,51522,A,40,4,1,46.79,04/01/2019
+9347,Devona,F,52776,Alemanha,Nuernberg,51996,A,37,3,1,62.69,04/01/2019
+9347,Devona,F,52776,Alemanha,Nuernberg,51996,A,39,3,1,39.89,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,45,3,1,48.36,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,41,3,1,47.69,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,42,3,1,48.36,04/01/2019
+31361,Priscilla,M,52776,Alemanha,Murnau,51934,A,47,3,1,30.81,04/01/2019
+2229,Trudy,M,52776,Alemanha,Freising,51522,A,47,4,1,29.94,04/01/2019
+1364,Valentina,F,52776,Alemanha,Heidelberg,51654,A,48,3,1,13.13,04/01/2019
+2748,Lolita,F,52776,Alemanha,Heidelberg,51654,A,48,3,1,13.13,04/01/2019
+11131,Uraih,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,48,3,1,13.13,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,117,3,1,10.94,04/01/2019
+11131,Uraih,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,117,3,1,10.94,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,119,3,1,8.51,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,115,3,1,9.3,04/01/2019
+1369,Van,M,52776,Alemanha,Konstanz,51736,A,116,3,1,12.4,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,126,3,1,30.57,04/01/2019
+11131,Uraih,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,126,3,1,30.57,04/01/2019
+1369,Van,M,52776,Alemanha,Konstanz,51736,A,127,3,1,38.67,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,127,3,1,38.67,04/01/2019
+1786,Horatio,M,52776,Alemanha,Backnang,51152,A,113,3,1,27.59,04/01/2019
+1102,Gaylord,M,52776,Alemanha,Bad Schwartau,51156,A,130,3,1,125.99,04/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,130,3,1,125.99,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,130,3,1,125.99,04/01/2019
+18905,Phil,M,52776,Alemanha,Weimar,52500,A,130,3,1,125.99,04/01/2019
+2229,Trudy,M,52776,Alemanha,Freising,51522,A,130,4,1,94.49,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,130,4,1,94.49,04/01/2019
+4369,Gilda,F,52776,Alemanha,Murnau,51934,A,128,3,1,29.26,04/01/2019
+627,Wendell,M,52776,Alemanha,Halle,51647,A,40,3,1,47.86,04/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,14,3,1,1259.99,05/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,17,3,1,1550.99,05/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,127,3,1,51.79,05/01/2019
+1442,Zillah,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,127,3,1,51.79,05/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,123,3,1,64.99,05/01/2019
+1442,Zillah,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,123,3,1,64.99,05/01/2019
+1442,Zillah,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,126,3,1,30.15,05/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,128,3,1,39.19,05/01/2019
+1442,Zillah,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,128,3,1,39.19,05/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,125,3,1,16.63,05/01/2019
+1442,Zillah,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,125,3,1,16.63,05/01/2019
+1441,Zenia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,18,3,1,1728.99,05/01/2019
+1102,Gaylord,M,52776,Alemanha,Bad Schwartau,51156,A,128,3,1,39.19,05/01/2019
+1786,Horatio,M,52776,Alemanha,Backnang,51152,A,114,3,1,22.79,06/01/2019
+2229,Trudy,M,52776,Alemanha,Freising,51522,A,119,4,1,7.15,06/01/2019
+2229,Trudy,M,52776,Alemanha,Freising,51522,A,118,3,1,8.15,06/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,117,3,1,10.79,06/01/2019
+2748,Lolita,F,52776,Alemanha,Heidelberg,51654,A,117,3,1,10.79,06/01/2019
+2229,Trudy,M,52776,Alemanha,Freising,51522,A,117,4,1,9.17,06/01/2019
+2405,Beverly,F,52776,Alemanha,Koeln,51735,A,117,4,1,9.17,06/01/2019
+1682,Galen,M,52776,Alemanha,Bad Homburg,51153,A,119,3,1,8.39,06/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,119,3,1,8.39,06/01/2019
+2229,Trudy,M,52776,Alemanha,Freising,51522,A,115,3,1,9.17,06/01/2019
+1786,Horatio,M,52776,Alemanha,Backnang,51152,A,116,3,1,14.39,06/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,116,3,1,14.39,06/01/2019
+2229,Trudy,M,52776,Alemanha,Freising,51522,A,116,3,1,14.39,06/01/2019
+35518,Hannah,F,52776,Alemanha,Weimar,52500,A,36,3,1,52.01,06/01/2019
+18905,Phil,M,52776,Alemanha,Weimar,52500,A,130,3,1,95.81,06/01/2019
+2229,Trudy,M,52776,Alemanha,Freising,51522,A,119,3,1,8.39,06/01/2019
+2748,Lolita,F,52776,Alemanha,Heidelberg,51654,A,119,3,1,8.39,06/01/2019
+1949,Misha,M,52776,Alemanha,Neuss,51975,A,114,3,1,22.79,06/01/2019
+3793,Petula,M,52776,Alemanha,Koeln,51735,A,20,3,1,602.39,07/01/2019
+48811,Babetta,M,52776,Alemanha,Bonn,51207,A,26,3,1,167.99,07/01/2019
+874,Price,M,52776,Alemanha,Saarbruecken,52277,A,31,3,1,9.85,07/01/2019
+3790,Pete,M,52776,Alemanha,Koeln,51735,A,31,3,1,9.85,07/01/2019
+797,Stacy,M,52776,Alemanha,Hamburg,51648,A,28,3,1,213.99,07/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,28,3,1,213.99,07/01/2019
+27323,Brenna,F,52776,Alemanha,Koeln,51735,A,29,3,1,561.75,07/01/2019
+1299,Thorpe,M,52776,Alemanha,Erlangen,51456,A,30,3,1,10.94,07/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,30,3,1,10.94,07/01/2019
+3790,Pete,M,52776,Alemanha,Koeln,51735,A,30,3,1,10.94,07/01/2019
+797,Stacy,M,52776,Alemanha,Hamburg,51648,A,32,3,1,74.46,07/01/2019
+904,Oprah,F,52776,Alemanha,Backnang,51152,A,32,3,1,74.46,07/01/2019
+797,Stacy,M,52776,Alemanha,Hamburg,51648,A,30,3,1,10.94,07/01/2019
+874,Price,M,52776,Alemanha,Saarbruecken,52277,A,30,3,1,10.94,07/01/2019
+3136,Lyle,M,52776,Alemanha,Murnau,51934,A,37,3,1,59.08,07/01/2019
+15443,Rosamond,F,52776,Alemanha,Weimar,52500,A,37,3,1,59.08,07/01/2019
+3043,Tamara,M,52776,Alemanha,Ravensburg,52159,A,36,4,1,49.01,07/01/2019
+2929,Rama,M,52776,Alemanha,Warstein,52497,A,35,3,1,54.92,07/01/2019
+3136,Lyle,M,52776,Alemanha,Murnau,51934,A,35,3,1,54.92,07/01/2019
+1706,Ginna,F,52776,Alemanha,Koeln,51735,A,35,4,1,53.89,07/01/2019
+3043,Tamara,M,52776,Alemanha,Ravensburg,52159,A,35,4,1,53.89,07/01/2019
+3043,Tamara,M,52776,Alemanha,Ravensburg,52159,A,38,4,1,32.33,07/01/2019
+2647,Letitia,F,52776,Alemanha,Warstein,52497,A,39,3,1,40.03,07/01/2019
+15443,Rosamond,F,52776,Alemanha,Weimar,52500,A,34,3,1,43.56,07/01/2019
+3043,Tamara,M,52776,Alemanha,Ravensburg,52159,A,34,4,1,43.11,07/01/2019
+627,Wendell,M,52776,Alemanha,Halle,51647,A,45,3,1,47.69,07/01/2019
+3169,Lyndon,M,52776,Alemanha,Murnau,51934,A,45,3,1,47.69,07/01/2019
+3169,Lyndon,M,52776,Alemanha,Murnau,51934,A,41,3,1,47.45,07/01/2019
+627,Wendell,M,52776,Alemanha,Halle,51647,A,42,3,1,47.69,07/01/2019
+3169,Lyndon,M,52776,Alemanha,Murnau,51934,A,42,3,1,47.69,07/01/2019
+797,Stacy,M,52776,Alemanha,Hamburg,51648,A,40,3,1,47.69,07/01/2019
+915,Ora,M,52776,Alemanha,Backnang,51152,A,40,3,1,47.69,07/01/2019
+1439,Zenas,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,40,3,1,47.69,07/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,40,3,1,47.69,07/01/2019
+2794,Magda,M,52776,Alemanha,Rosenheim,52171,A,40,3,1,47.69,07/01/2019
+2929,Rama,M,52776,Alemanha,Warstein,52497,A,40,3,1,47.69,07/01/2019
+3136,Lyle,M,52776,Alemanha,Murnau,51934,A,40,3,1,47.69,07/01/2019
+3169,Lyndon,M,52776,Alemanha,Murnau,51934,A,40,3,1,47.69,07/01/2019
+3790,Pete,M,52776,Alemanha,Koeln,51735,A,40,3,1,47.69,07/01/2019
+2304,Wynnee,M,52776,Alemanha,Frankfurt am Main,51517,A,40,4,1,47.45,07/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,46,3,1,25.18,07/01/2019
+3039,Sampson,M,52776,Alemanha,Ravensburg,52159,A,46,3,1,25.18,07/01/2019
+3790,Pete,M,52776,Alemanha,Koeln,51735,A,46,3,1,25.18,07/01/2019
+204,Manus,M,52776,Alemanha,Koeln,51735,A,47,3,1,30.55,07/01/2019
+1299,Thorpe,M,52776,Alemanha,Erlangen,51456,A,47,3,1,30.55,07/01/2019
+2929,Rama,M,52776,Alemanha,Warstein,52497,A,47,3,1,30.55,07/01/2019
+2304,Wynnee,M,52776,Alemanha,Frankfurt am Main,51517,A,47,4,1,29.58,07/01/2019
+797,Stacy,M,52776,Alemanha,Hamburg,51648,A,46,3,1,25.18,07/01/2019
+1299,Thorpe,M,52776,Alemanha,Erlangen,51456,A,46,3,1,25.18,07/01/2019
+1438,Zel,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,46,3,1,25.18,07/01/2019
+1438,Zel,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,48,3,1,13.13,07/01/2019
+1637,Emmanuel,M,52776,Alemanha,Hannover,51649,A,48,3,1,13.13,07/01/2019
+3039,Sampson,M,52776,Alemanha,Ravensburg,52159,A,48,3,1,13.13,07/01/2019
+3790,Pete,M,52776,Alemanha,Koeln,51735,A,48,3,1,13.13,07/01/2019
+48811,Babetta,M,52776,Alemanha,Bonn,51207,A,48,3,1,13.13,07/01/2019
+27323,Brenna,F,52776,Alemanha,Koeln,51735,A,29,4,1,546.4,07/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,23,3,1,23.75,07/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,26,3,1,167.99,07/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,25,3,1,126.55,07/01/2019
+48811,Babetta,M,52776,Alemanha,Bonn,51207,A,23,3,1,24.08,08/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,148,3,1,29.39,08/01/2019
+48811,Babetta,M,52776,Alemanha,Bonn,51207,A,25,3,1,128.32,08/01/2019
+1439,Zenas,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,31,3,1,9.71,08/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,31,3,1,9.71,08/01/2019
+4191,Orilla,F,52776,Alemanha,Koeln,51735,A,28,3,1,216.99,08/01/2019
+48811,Babetta,M,52776,Alemanha,Bonn,51207,A,28,3,1,216.99,08/01/2019
+48811,Babetta,M,52776,Alemanha,Bonn,51207,A,27,3,1,49.27,08/01/2019
+915,Ora,M,52776,Alemanha,Backnang,51152,A,30,3,1,10.83,08/01/2019
+1439,Zenas,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,30,3,1,10.83,08/01/2019
+1637,Emmanuel,M,52776,Alemanha,Hannover,51649,A,30,3,1,10.83,08/01/2019
+4191,Orilla,F,52776,Alemanha,Koeln,51735,A,30,3,1,10.83,08/01/2019
+38054,Demetria,M,52776,Alemanha,Konstanz,51736,A,30,3,1,10.83,08/01/2019
+1706,Ginna,F,52776,Alemanha,Koeln,51735,A,35,3,1,53.7,08/01/2019
+2304,Wynnee,M,52776,Alemanha,Frankfurt am Main,51517,A,35,3,1,53.7,08/01/2019
+3169,Lyndon,M,52776,Alemanha,Murnau,51934,A,35,3,1,53.7,08/01/2019
+15443,Rosamond,F,52776,Alemanha,Weimar,52500,A,35,3,1,53.7,08/01/2019
+4191,Orilla,F,52776,Alemanha,Koeln,51735,A,31,3,1,9.71,08/01/2019
+48811,Babetta,M,52776,Alemanha,Bonn,51207,A,31,3,1,9.71,08/01/2019
+3043,Tamara,M,52776,Alemanha,Ravensburg,52159,A,34,3,1,42.96,08/01/2019
+1439,Zenas,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,146,3,1,16.79,08/01/2019
+1637,Emmanuel,M,52776,Alemanha,Hannover,51649,A,146,3,1,16.79,08/01/2019
+4191,Orilla,F,52776,Alemanha,Koeln,51735,A,146,3,1,16.79,08/01/2019
+48811,Babetta,M,52776,Alemanha,Bonn,51207,A,146,3,1,16.79,08/01/2019
+1637,Emmanuel,M,52776,Alemanha,Hannover,51649,A,140,3,1,41.99,08/01/2019
+4191,Orilla,F,52776,Alemanha,Koeln,51735,A,140,3,1,41.99,08/01/2019
+48811,Babetta,M,52776,Alemanha,Bonn,51207,A,140,3,1,41.99,08/01/2019
+4191,Orilla,F,52776,Alemanha,Koeln,51735,A,148,3,1,29.39,08/01/2019
+915,Ora,M,52776,Alemanha,Backnang,51152,A,148,3,1,29.39,08/01/2019
+1439,Zenas,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,148,3,1,29.39,08/01/2019
+4191,Orilla,F,52776,Alemanha,Koeln,51735,A,25,3,1,128.32,08/01/2019
+1655,Eve,F,52776,Alemanha,Ravensburg,52159,A,45,3,1,47.86,09/01/2019
+2929,Rama,M,52776,Alemanha,Warstein,52497,A,119,4,1,7.15,09/01/2019
+1655,Eve,F,52776,Alemanha,Ravensburg,52159,A,43,3,1,48.36,09/01/2019
+1655,Eve,F,52776,Alemanha,Ravensburg,52159,A,42,3,1,47.86,09/01/2019
+2407,Biddy,M,52776,Alemanha,Dresden,51397,A,40,3,1,48.36,09/01/2019
+2794,Magda,M,52776,Alemanha,Rosenheim,52171,A,40,3,1,48.36,09/01/2019
+14681,Sammy,F,52776,Alemanha,Konstanz,51736,A,40,3,1,48.36,09/01/2019
+29313,Letitia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,47,3,1,30.44,09/01/2019
+29313,Letitia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,48,3,1,12.95,09/01/2019
+2929,Rama,M,52776,Alemanha,Warstein,52497,A,118,3,1,8.18,09/01/2019
+2929,Rama,M,52776,Alemanha,Warstein,52497,A,117,3,1,10.79,09/01/2019
+2929,Rama,M,52776,Alemanha,Warstein,52497,A,115,3,1,9.2,09/01/2019
+1439,Zenas,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,116,3,1,14.39,09/01/2019
+2929,Rama,M,52776,Alemanha,Warstein,52497,A,116,3,1,14.39,09/01/2019
+3039,Sampson,M,52776,Alemanha,Ravensburg,52159,A,128,3,1,29.39,09/01/2019
+3790,Pete,M,52776,Alemanha,Koeln,51735,A,128,3,1,29.39,09/01/2019
+33846,Winston,M,52776,Alemanha,Bremen,51215,A,128,3,1,29.39,09/01/2019
+35834,Rayburn,M,52776,Alemanha,Heilbronn,51656,A,128,3,1,29.39,09/01/2019
+2407,Biddy,M,52776,Alemanha,Dresden,51397,A,130,3,1,94.49,09/01/2019
+2429,Brand,M,52776,Alemanha,Kiel,51727,A,130,3,1,94.49,09/01/2019
+1299,Thorpe,M,52776,Alemanha,Erlangen,51456,A,129,3,1,201.76,09/01/2019
+3039,Sampson,M,52776,Alemanha,Ravensburg,52159,A,129,3,1,201.76,09/01/2019
+3039,Sampson,M,52776,Alemanha,Ravensburg,52159,A,127,3,1,38.84,09/01/2019
+3790,Pete,M,52776,Alemanha,Koeln,51735,A,127,3,1,38.84,09/01/2019
+35834,Rayburn,M,52776,Alemanha,Heilbronn,51656,A,127,3,1,38.84,09/01/2019
+35834,Rayburn,M,52776,Alemanha,Heilbronn,51656,A,125,3,1,16.59,09/01/2019
+35834,Rayburn,M,52776,Alemanha,Heilbronn,51656,A,123,3,1,65.9,09/01/2019
+3039,Sampson,M,52776,Alemanha,Ravensburg,52159,A,125,3,1,16.59,09/01/2019
+3790,Pete,M,52776,Alemanha,Koeln,51735,A,125,3,1,16.59,09/01/2019
+3039,Sampson,M,52776,Alemanha,Ravensburg,52159,A,126,3,1,30.12,09/01/2019
+35834,Rayburn,M,52776,Alemanha,Heilbronn,51656,A,126,3,1,30.12,09/01/2019
+1439,Zenas,M,52776,Alemanha,Schwaebisch Gmuend,52300,A,119,3,1,8.39,09/01/2019
+2929,Rama,M,52776,Alemanha,Warstein,52497,A,119,3,1,8.39,09/01/2019
+1655,Eve,F,52776,Alemanha,Ravensburg,52159,A,41,3,1,48.36,09/01/2019
+2304,Wynnee,M,52776,Alemanha,Frankfurt am Main,51517,A,15,3,1,999.99,10/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,19,3,1,62.15,10/01/2019
+904,Oprah,F,52776,Alemanha,Backnang,51152,A,20,3,1,599.99,10/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,20,3,1,599.99,10/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,13,3,1,1232.16,10/01/2019
+35834,Rayburn,M,52776,Alemanha,Heilbronn,51656,A,13,3,1,1232.16,10/01/2019
+915,Ora,M,52776,Alemanha,Backnang,51152,A,14,3,1,1264.4,10/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,14,3,1,1264.4,10/01/2019
+29313,Letitia,F,52776,Alemanha,Schwaebisch Gmuend,52300,A,14,3,1,1264.4,10/01/2019
+1637,Emmanuel,M,52776,Alemanha,Hannover,51649,A,17,3,1,1495.99,10/01/2019
+1948,Miranda,F,52776,Alemanha,Neuss,51975,A,17,3,1,1495.99,10/01/2019
+44,Sada,F,52776,Alemanha,Cottbus,51342,A,24,3,1,48.92,10/01/2019
+44733,Reginald,M,52776,Alemanha,Duesseldorf,51400,A,24,3,1,48.92,10/01/2019
+2349,Anne,F,52776,Alemanha,Ravensburg,52159,A,18,3,1,1697.83,10/01/2019

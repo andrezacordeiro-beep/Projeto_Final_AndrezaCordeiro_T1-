@@ -5,7 +5,7 @@ import plotly.express as px
 # Configuração da página para layout amplo
 st.set_page_config(page_title="Análise de Vendas", layout="wide")
 
-st.title('🚗 Análise de Vendas - (Alemanha 2019)') 
+st.title(' Análise de Vendas - (Alemanha 2019)') 
 
 # Função com cache para otimizar o carregamento dos dados
 @st.cache_data
@@ -29,7 +29,7 @@ canal = st.sidebar.selectbox(
 )
 
 data_minima = df['data'].min()
-data_selecionada = st.sidebar.date_input('Data Inicial:', data_minima)
+data_selecionada = st.sidebar.date_input('Data ', data_minima)
 
 # Filtrando os dados com base no canal e na data selecionados pelo usuário
 df_filtrado = df[  

@@ -37,11 +37,13 @@ print("Carregamento de dados(extração)")
 # ============================================================
  
 caminho_entrada = r"C:\Users\ANDREZA\Desktop\Projeto_Final_AndrezaCordeiro_T1-\data\raw\vendas.pf.csv"
+caminho_entrada_2= r"C:\Users\ANDREZA\Desktop\Projeto_Final_AndrezaCordeiro_T1-\data\raw\canal.pf.csv"
 
 # Ignorar esse texto '#N/D' e transformá-lo em um valor nulo/em branco (representado por NaN)
 vendas_csv = pd.read_csv(caminho_entrada, na_values=['#N/D'])
+canal_csv = pd.read_csv(caminho_entrada_2, na_values=['#N/D'])
 
-print("Informações sobre os dados:")
+print("Informações sobre os dados do arquivo 'vendas.pf.csv':")
 
 # Mostrar quantos registros foram exportados
 print("Quantidade de registros exportados:", len(vendas_csv))
@@ -55,6 +57,10 @@ print(vendas_csv.head())
 print(vendas_csv.info())
 # Exibe o cabeçalho de cada coluna
 print(vendas_csv.columns)
+
+#Incluir coluna com descrição do canal de venda, usando o merge para combinar os DataFrames com base na coluna 'CHANNEL_ID'
+
+vendas_csv = pd.merge(vendas_csv, canal_csv, on='CHANNEL_ID', how='left')
 
 
 # ============================================================
@@ -119,6 +125,7 @@ df_filtrado.columns= df_filtrado.columns.str.strip()
 df= df_filtrado.rename(columns={
     'CUST_ID': 'ID_CLIENTE',
     'CUST_FIRST_NAME': 'NOME_CLIENTE',
+    'CHANNEL_DESC': 'CANAL',
     'CUST_GENDER': 'GENERO_CLIENTE',
     'COUNTRY_ID': 'ID_PAIS',
     'COUNTRY_NAME': 'PAIS',
@@ -133,12 +140,16 @@ df= df_filtrado.rename(columns={
 })
 
 
-
 # Exibir os novos nomes das colunas
 print("Colunas atualizadas com sucesso:", df.columns.tolist())
 
-df = df.replace('Germany', 'Alemanha')
-
+df = df.replace('Germany', 'Alemanha'); df = df.replace('Direct Sales', 'Físico'); df = df.replace('Partner Sales', 'Parceiro'); df = df.replace('Internet', 'Online')
+"""
+df['CANAL'] = df['CANAL'].replace
+mapeamento_canal = {
+    'Direct Sales': 'Físico',  'Partner Sales': 'Parceiro','Internet': 'Online'
+    }
+"""
 # Salvar o resultado em um novo arquivo CSV
 df.to_csv('query_valida.csv', index=False)
 
@@ -193,9 +204,8 @@ print("-" * 40)
 # Função de vendas por canal (corrigido para agrupar por 'ID_CANAL')
 def contar_vendas_por_canal(df):
     # Agrupa pelo canal e conta os registros, ordenando do maior para o menor
-    vendas_por_canal = df.groupby('ID_CANAL')['VALOR_VENDIDO'].count().sort_values(ascending=False)
+    vendas_por_canal = df.groupby('CANAL')['VALOR_VENDIDO'].count().sort_values(ascending=False)
     return vendas_por_canal
-
 vendas_por_canal = contar_vendas_por_canal(df)
 print("Quantidade de vendas por canal:")
 print(vendas_por_canal)
@@ -205,7 +215,7 @@ print("-" * 40)
 # Função de variações de canal por data (corrigida a ordem do sort e nome da variável)
 def contar_variacoes_de_canal_por_datas(df):
     # Primeiro ordena do maior para o menor, depois pega os 10 primeiros (.head(10))
-    variacoes_de_canal_por_datas = df.groupby('DATA')['ID_CANAL'].count().sort_values(ascending=False).head(10)
+    variacoes_de_canal_por_datas = df.groupby('DATA')['CANAL'].count().sort_values(ascending=False).head(10)
     return variacoes_de_canal_por_datas
 
 # Salvando o resultado em uma variável com nome diferente da função
@@ -221,7 +231,7 @@ print(resultado_canal_datas)
 
 print("Iniciando o processo de análise dados da query_valida.")
 
-caminho_entrada = "query_valida.csv"
+caminho_entrada = "data/processed/query_valida.csv"
 query_valida = pd.read_csv(caminho_entrada)
 
 
@@ -268,7 +278,7 @@ plt.close()
 # ==========================================
 plt.figure(figsize=(8, 5))
 
-sns.histplot(data=query_valida, x="VALOR_VENDIDO", hue="ID_CANAL", kde=True, element="step", # Mantém apenas a borda, reduzindo a poluição visual
+sns.histplot(data=query_valida, x="VALOR_VENDIDO", hue="CANAL", kde=True, element="step", # Mantém apenas a borda, reduzindo a poluição visual
     palette="Set2", multiple="layer",
     alpha=0.3     # Transparência para ver onde as distribuições se cruzam
 )

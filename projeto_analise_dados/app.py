@@ -19,9 +19,10 @@ data_load_state = st.text('Carregando dados...')
 df = load_data()
 data_load_state.text('Carregando dados... pronto!')
 
-# Converte para datetime, ajusta o formato brasileiro e zera o horário (mantém o tipo datetime puro)
+
 df = pd.read_csv('data/processed/query_valida.csv')
-df['DATA'] = pd.to_datetime(df['DATA'])
+# Converte para datetime, ajusta o formato brasileiro (dia primeiro) e zera o horário
+df['DATA'] = pd.to_datetime(df['DATA'], dayfirst=True, errors='coerce').dt.normalize()
 
 # --- BARRA LATERAL DE FILTROS ---
 st.sidebar.header("Filtros do Dashboard")

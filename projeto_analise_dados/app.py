@@ -18,8 +18,8 @@ data_load_state = st.text('Carregando dados...')
 df = load_data()
 data_load_state.text('Carregando dados... pronto!')
 
-# Transformação da coluna 'DATA' em formato de data
-df['data'] = pd.to_datetime(df['DATA']) 
+# Transformação correta da coluna 'DATA' para o formato de data (datetime)
+df['DATA'] = pd.to_datetime(df['DATA'], dayfirst=True, errors='coerce')
 
 # --- BARRA LATERAL DE FILTROS ---
 st.sidebar.header("Filtros do Dashboard")
@@ -28,13 +28,13 @@ canal = st.sidebar.selectbox(
     'Selecione o Canal:', df['CANAL'].unique()
 )
 
-data_minima = df['data'].min()
+data_minima = df['DATA'].min()
 data_selecionada = st.sidebar.date_input('Data Inicial:', data_minima)
 
 # Filtrando os dados com base no canal e na data selecionados pelo usuário
 df_filtrado = df[  
     (df['CANAL'] == canal) &
-    (df['data'] >= pd.Timestamp(data_selecionada))
+    (df['DATA'] >= pd.Timestamp(data_selecionada))
 ]
 
 # Exibindo métrica rápida de registros na barra lateral
@@ -61,17 +61,17 @@ if tipo_grafico == 'Evolução Temporal (Linha)':
     st.markdown("### 📈 Evolução de Vendas ao Longo do Tempo")
     fig = px.line(
         df_filtrado, 
-        x='data', 
+        x='DATA', 
         y='VALOR_VENDIDO', 
         title=f'Evolução Diária - Canal {canal}',
-        labels={'data': 'DATA', 'VALOR_VENDIDO': 'Valor Vendido (€)'}
+        labels={'DATA': 'DATA', 'VALOR_VENDIDO': 'Valor Vendido (€)'}
     )
     st.plotly_chart(fig, use_container_width=True)
 
 # Opção 2: Gráfico de Barras por Mês
 elif tipo_grafico == 'Distribuição por Mês (Barras)':
     st.markdown("### 📊 Volume Total de Vendas Agrupado por Mês")
-    df_filtrado['mes_ano'] = df_filtrado['data'].dt.to_period('M').astype(str)
+    df_filtrado['mes_ano'] = df_filtrado['DATA'].dt.to_period('M').astype(str)
     df_mes = df_filtrado.groupby('mes_ano')['VALOR_VENDIDO'].sum().reset_index()
     
     fig = px.bar(

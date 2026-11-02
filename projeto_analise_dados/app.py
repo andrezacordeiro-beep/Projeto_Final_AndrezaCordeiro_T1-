@@ -9,6 +9,7 @@ st.title(' Análise de Vendas - (Alemanha 2019)')
 
 # Função com cache para otimizar o carregamento dos dados
 @st.cache_data
+
 def load_data():
     df = pd.read_csv('data/processed/query_valida.csv')
     return df
@@ -18,8 +19,9 @@ data_load_state = st.text('Carregando dados...')
 df = load_data()
 data_load_state.text('Carregando dados... pronto!')
 
-# Transformação correta da coluna 'DATA' para o formato de data (datetime)
-df['DATA'] = pd.to_datetime(df['DATA'], dayfirst=True, errors='coerce')
+# Converte para datetime, ajusta o formato brasileiro e zera o horário (mantém o tipo datetime puro)
+df = pd.read_csv('data/processed/query_valida.csv')
+df['DATA'] = pd.to_datetime(df['DATA'])
 
 # --- BARRA LATERAL DE FILTROS ---
 st.sidebar.header("Filtros do Dashboard")
@@ -64,7 +66,7 @@ if tipo_grafico == 'Evolução Temporal (Linha)':
         x='DATA', 
         y='VALOR_VENDIDO', 
         title=f'Evolução Diária - Canal {canal}',
-        labels={'DATA': 'DATA', 'VALOR_VENDIDO': 'Valor Vendido (€)'}
+        labels={'DATA': 'Data', 'VALOR_VENDIDO': 'Valor Vendido (€)'}
     )
     st.plotly_chart(fig, use_container_width=True)
 

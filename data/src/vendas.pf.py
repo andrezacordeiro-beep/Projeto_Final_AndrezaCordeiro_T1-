@@ -87,6 +87,7 @@ print(percentual_nulos.round())
 
 print("Nulos restantes:", vendas_csv.isnull().sum())
 
+  
 # Remoção de duplicatas parcial e inativos: mesmo cliente "comprando o mesmo produto no mesmo dia, indicando possível erro de digitação ou registro duplicado, o que pode distorcer análises de vendas e comportamento do consumidor)"*******************
 
 def print_duplicatas(vendas_csv):
@@ -95,10 +96,15 @@ def print_duplicatas(vendas_csv):
         subset=["CUST_ID", "CUST_FIRST_NAME", "CUST_GENDER", "COUNTRY_ID", "COUNTRY_NAME", "CUST_CITY", "CUST_CITY_ID", "CUST_VALID", "PROD_ID", "CHANNEL_ID", "QUANTITY_SOLD", "AMOUNT_SOLD", "TIME_ID"],
         keep="first"
     )
+    
     print(f"Linhas depois: {len(vendas_csv_sem_dup_parcial)}")
     return vendas_csv_sem_dup_parcial  
-
     vendas_csv_sem_dup_parcial = print_duplicatas('vendas_csv')
+    
+    
+# Remover colunas
+colunas_para_remover = ['CUST_ID_y', 'PROD_ID_y']
+vendas_csv = vendas_csv.drop(columns=colunas_para_remover)
 
 
 # Converte a coluna 'Data' para formato datetime considerando dia primeiro
@@ -123,7 +129,7 @@ df_filtrado.columns= df_filtrado.columns.str.strip()
 
 # Renomear colunas específicas usando um dicionário
 df= df_filtrado.rename(columns={
-    'CUST_ID': 'ID_CLIENTE',
+    'CUST_ID_x': 'ID_CLIENTE',
     'CUST_FIRST_NAME': 'NOME_CLIENTE',
     'CHANNEL_DESC': 'CANAL',
     'CUST_GENDER': 'GENERO_CLIENTE',
@@ -132,7 +138,7 @@ df= df_filtrado.rename(columns={
     'CUST_CITY': 'CIDADE',
     'CUST_CITY_ID': 'ID_CIDADE',
     'CUST_VALID': 'CLIENTE_ATIVO',
-    'PROD_ID': 'ID_PRODUTO',
+    'PROD_ID_x': 'ID_PRODUTO',
     'CHANNEL_ID': 'ID_CANAL',
     'QUANTITY_SOLD': 'QUANTIDADE_VENDIDA',
     'AMOUNT_SOLD': 'VALOR_VENDIDO',
@@ -236,69 +242,64 @@ query_valida = pd.read_csv(caminho_entrada)
 
 
 # Executa diagnóstico estrutural inicial simplificado
-print("\n--- Estrutura Inicial da Base ---")
+print("Estrutura Inicial da Base")
 query_valida.info()
 
-print("\n--- Shape da Base - Quantidade de Linhas e Colunas ---")
+print("Shape da Base - Quantidade de Linhas e Colunas")
 print(query_valida.shape)
 
-print("\n--- Visualização das primeiras linhas ---")
+print("Visualização das primeiras linhas")
 print(query_valida.head(5))
 
-print("\n--- Calcular medidas estatísticas básicas ---")
+print("Calcular medidas estatísticas básicas")
 print(query_valida.describe())
+
 
 # Garante que a pasta de imagens existe
 os.makedirs(r"output\\imagens", exist_ok=True)
 
-
 # =======================================
 # BOXPLOT — Análise de Valor de Vendas por Gênero de Clientes
 # =======================================
-plt.figure(figsize=(8, 5))
+print("Gerando Boxplot do Valor Vendido por Gênero de Clientes")
 
-sns.boxplot(data = query_valida, y ="GENERO_CLIENTE", x="VALOR_VENDIDO", color="lightblue")
-
-plt.title("Boxplot do genero de clientes")
-plt.ylabel("Gênero do Cliente")
-plt.xlabel("Valor Vendido")
-plt.tight_layout()
-
-plt.savefig(
-    r"output\\imagens\\boxplot_genero_clientes.png",
-    dpi=150, bbox_inches="tight"
-)
-plt.show()
-plt.close()
-
-
-
+if 'GENERO_CLIENTE' in df.columns and 'VALOR_VENDIDO' in df.columns:
+    plt.figure(figsize=(8, 5))
+    sns.boxplot(data=df, y="GENERO_CLIENTE", x="VALOR_VENDIDO", color="lightblue")
+    plt.title("Boxplot do Valor Vendido por Gênero de Clientes")
+    plt.ylabel("Gênero do Cliente")
+    plt.xlabel("Valor Vendido")
+    plt.tight_layout()
+    plt.savefig(r"output/imagens/boxplot_genero_clientes.png", dpi=150, bbox_inches="tight")
+    plt.show()
+    plt.close()
+    
 # ==========================================
 # HISTOGRAMA — Distribuição do valor de vendas por canal de venda
 # ==========================================
-plt.figure(figsize=(8, 5))
+print("Gerando Histograma do Valor Vendido por Canal de Vendas")
 
-sns.histplot(data=query_valida, x="VALOR_VENDIDO", hue="CANAL", kde=True, element="step", # Mantém apenas a borda, reduzindo a poluição visual
-    palette="Set2", multiple="layer",
-    alpha=0.3     # Transparência para ver onde as distribuições se cruzam
+if 'VALOR_VENDIDO' in df.columns and 'CANAL' in df.columns:
+    plt.figure(figsize=(8, 5))
+    sns.histplot(
+data=df, x="VALOR_VENDIDO", hue="CANAL", kde=True, 
+element="step", palette="Set2", multiple="layer", alpha=0.3
 )
-plt.title("Distribuição do Valor vendido por Canal")
-plt.xlabel("Valor Vendido")
-plt.ylabel("Quantidade de Vendas por Canal")
-plt.tight_layout()
+    plt.title("Distribuição do Valor Vendido por Canal")
+    plt.xlabel("Valor Vendido")
+    plt.ylabel("Contagem")
+    plt.tight_layout()
+    plt.savefig(r"output/imagens/histograma_valor_vendas_canal.png", dpi=150, bbox_inches="tight")
+    plt.show()
+    plt.close()
 
-plt.savefig(
-    r"output\\imagens\\histograma_valor_vendas_canal.png",
-    dpi=150, bbox_inches="tight"
-)
-plt.show()
-plt.close()
+print("--- SCRIPT EXECUTADO COM SUCESSO! ---")
 
 # ==========================================
 # DICIONÁRIO DE MAPEAMENTO E ETL
 # ==========================================
 
 plt.savefig(
-    r"output\\imagens\\dicionario_mapeamento_etl.png",
-    dpi=150, bbox_inches="tight"
+r"output\\imagens\\dicionario_mapeamento_etl.png",
+dpi=150, bbox_inches="tight"
 )

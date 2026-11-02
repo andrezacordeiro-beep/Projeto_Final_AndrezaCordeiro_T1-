@@ -25,7 +25,7 @@ df['data'] = pd.to_datetime(df['DATA'])
 st.sidebar.header("Filtros do Dashboard")
 
 canal = st.sidebar.selectbox(
-    'Selecione o Canal:', df['ID_CANAL'].unique()
+    'Selecione o Canal:', df['CANAL'].unique()
 )
 
 data_minima = df['data'].min()
@@ -33,7 +33,7 @@ data_selecionada = st.sidebar.date_input('Data Inicial:', data_minima)
 
 # Filtrando os dados com base no canal e na data selecionados pelo usuário
 df_filtrado = df[  
-    (df['ID_CANAL'] == canal) &
+    (df['CANAL'] == canal) &
     (df['data'] >= pd.Timestamp(data_selecionada))
 ]
 
@@ -64,7 +64,7 @@ if tipo_grafico == 'Evolução Temporal (Linha)':
         x='data', 
         y='VALOR_VENDIDO', 
         title=f'Evolução Diária - Canal {canal}',
-        labels={'data': 'Data', 'VALOR_VENDIDO': 'Valor Vendido (€)'}
+        labels={'data': 'DATA', 'VALOR_VENDIDO': 'Valor Vendido (€)'}
     )
     st.plotly_chart(fig, use_container_width=True)
 

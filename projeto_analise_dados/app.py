@@ -5,7 +5,7 @@ import plotly.express as px
 # 1. Configuração da página (deve ser sempre o primeiro comando do Streamlit)
 st.set_page_config(page_title="Análise de Vendas", layout="wide")
 
-st.title('📊 Análise de Vendas - (Alemanha 2019)') 
+st.title('📊 Análise de Vendas - Empresa Fictícia(Alemanha 2019)') 
 
 # 2. Função com cache para otimizar e carregar os dados de forma limpa
 @st.cache_data

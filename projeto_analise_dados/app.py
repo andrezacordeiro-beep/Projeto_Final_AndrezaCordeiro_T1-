@@ -2,16 +2,24 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# Configuração da página para layout amplo
+# 1. Configuração da página (deve ser sempre o primeiro comando do Streamlit)
 st.set_page_config(page_title="Análise de Vendas", layout="wide")
 
-st.title(' Análise de Vendas - (Alemanha 2019)') 
+st.title('📊 Análise de Vendas - (Alemanha 2019)') 
 
-# Função com cache para otimizar o carregamento dos dados
+# 2. Função com cache para otimizar e carregar os dados de forma limpa
 @st.cache_data
-
 def load_data():
+    # Carrega o arquivo CSV processado
     df = pd.read_csv('data/processed/query_valida.csv')
+    
+    # Converte a coluna 'DATA' para o formato datetime (padrão brasileiro DD/MM/AAAA)
+    # errors='coerce' transforma eventuais datas inválidas em valores nulos para não quebrar o app
+    df['DATA'] = pd.to_datetime(df['DATA'], dayfirst=True, errors='coerce')
+    
+    # Remove o horário (zera as horas para 00:00:00), mantendo o tipo datetime puro ideal para filtros
+    df['DATA'] = df['DATA'].dt.normalize()
+    
     return df
 
 # Feedback visual de carregamento na tela
@@ -19,31 +27,30 @@ data_load_state = st.text('Carregando dados...')
 df = load_data()
 data_load_state.text('Carregando dados... pronto!')
 
-# Converte para datetime, ajusta o formato brasileiro e zera o horário (mantém o tipo datetime puro)
-df = pd.read_csv('data/processed/query_valida.csv')
-df['DATA'] = pd.to_datetime(df['DATA'])
-
-# --- BARRA LATERAL DE FILTROS ---
+# --- 3. BARRA LATERAL DE FILTROS ---
 st.sidebar.header("Filtros do Dashboard")
 
+# Seletor de Canal de Vendas
 canal = st.sidebar.selectbox(
     'Selecione o Canal:', df['CANAL'].unique()
 )
 
-data_minima = df['DATA'].min()
+# Filtro de Data Inicial baseado na menor data disponível na base
+data_minima = df['DATA'].min().date() # Converte para o formato date do Python para o Streamlit
 data_selecionada = st.sidebar.date_input('Data Inicial:', data_minima)
 
-# Filtrando os dados com base no canal e na data selecionados pelo usuário
+# --- 4. APLICAÇÃO DOS FILTROS NOS DADOS ---
+# Filtra o DataFrame considerando o canal escolhido e a data selecionada
 df_filtrado = df[  
     (df['CANAL'] == canal) &
-    (df['DATA'] >= pd.Timestamp(data_selecionada))
+    (df['DATA'] >= pd.to_datetime(data_selecionada))
 ]
 
 # Exibindo métrica rápida de registros na barra lateral
 st.sidebar.markdown("---")
 st.sidebar.metric(label="Total de Registros Filtrados", value=len(df_filtrado))
 
-# --- CORPO PRINCIPAL: OPÇÕES GRÁFICAS ---
+# --- 5. CORPO PRINCIPAL: OPÇÕES GRÁFICAS ---
 st.subheader('Painel de Análise Gráfica')
 
 # Seletor para o usuário escolher qual gráfico deseja visualizar
@@ -73,8 +80,11 @@ if tipo_grafico == 'Evolução Temporal (Linha)':
 # Opção 2: Gráfico de Barras por Mês
 elif tipo_grafico == 'Distribuição por Mês (Barras)':
     st.markdown("### 📊 Volume Total de Vendas Agrupado por Mês")
-    df_filtrado['mes_ano'] = df_filtrado['DATA'].dt.to_period('M').astype(str)
-    df_mes = df_filtrado.groupby('mes_ano')['VALOR_VENDIDO'].sum().reset_index()
+    
+    # Cria uma cópia ou coluna temporária formatada como ano-mês para agrupamento
+    df_filtrado_copia = df_filtrado.copy()
+    df_filtrado_copia['mes_ano'] = df_filtrado_copia['DATA'].dt.to_period('M').astype(str)
+    df_mes = df_filtrado_copia.groupby('mes_ano')['VALOR_VENDIDO'].sum().reset_index()
     
     fig = px.bar(
         df_mes, 

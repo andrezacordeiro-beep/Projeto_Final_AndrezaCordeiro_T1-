@@ -64,7 +64,7 @@
   * `TIME_ID` / `DATA`: Data da venda.
 * **Licença e Termos:** Dados públicos de exemplo para uso acadêmico e instrução.
 * **Dados Privados:** Não há uso de dados sensíveis reais ou protegidos pela LGPD/GDPR. Os registros são fictícios e sintéticos do schema Oracle.
-* ![1793670796633](image/README/1793670796633.jpg)
+ ![1793670796633](image/README/1793670796633.jpg)
 
 ---
 

@@ -1,4 +1,4 @@
-![imagem.capa]([C:\Users\ANDREZA\Desktop\Projeto_Final_AndrezaCordeiro_T1-\projeto_analise_dados\imagem.capa.png](https://github.com/andrezacordeiro-beep/Projeto_Final_AndrezaCordeiro_T1-/blob/2f350a3e6b684ae848ca5ca78dce9a56b917e643/projeto_analise_dados/imagem.capa.png)
+![imagem.capa](https://github.com/andrezacordeiro-beep/Projeto_Final_AndrezaCordeiro_T1-/blob/2f350a3e6b684ae848ca5ca78dce9a56b917e643/projeto_analise_dados/imagem.capa.png)
 
 # 📊 Projeto Final: Visualização de Dados e Business Intelligence
 

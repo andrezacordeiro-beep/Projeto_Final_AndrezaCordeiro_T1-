@@ -15,6 +15,8 @@ def load_data():
     
     # Converte para datetime e remove totalmente o horário, mantendo apenas a data pura (YYYY-MM-DD ou formato de data)
     df['DATA'] = pd.to_datetime(df['DATA'], dayfirst=True, errors='coerce').dt.date
+    # 2. Transforma explicitamente em texto no formato brasileiro (DD/MM/AAAA) eliminando o horário
+    df['DATA'] = df['DATA'].dt.strftime('%d/%m/%Y')
     
     return df
 

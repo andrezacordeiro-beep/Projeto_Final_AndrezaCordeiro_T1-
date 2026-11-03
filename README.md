@@ -14,8 +14,7 @@
 
 ## 🎯 1. Pipeline ETL e Análise Exploratória de Vendas por Canal e Gênero (Base Alemanha)
 
-
-* **Descrição Breve:** Solução completa de engenharia e análise de dados que engloba extração, tratamento, saneamento, análise estatística descritiva e visualização gráfica de dados de vendas da Empresa Desconhecida na Alemanha no ano de 2019, integrados a um aplicativo interativo em Streamlit.
+* **Descrição Breve:** Solução completa de engenharia e análise de dados que engloba extração, tratamento, saneamento, análise estatística descritiva e visualização gráfica de dados de vendas da Empresa Desconhecida na Alemanha no período de janeiro a outubro de 2019, integrados a um aplicativo interativo em Streamlit.
 * **Assunto Analisado:** Comportamento de consumo, distribuição de receita e volume de transações agrupados por canal de venda (Físico vs. Online) e perfil demográfico (Gênero do Cliente).
 
 ---
@@ -265,7 +264,7 @@ Projeto_Final_AndrezaCordeiro_T1/
 ## ⚠️ 13. Limitações e Melhorias Futuras
 
 * **Limitações Identificadas:**
-  * Amostra reduzida no canal Online (apenas 15 registros), o que impede testes de hipótese estatística robustos para este subgrupo.
+  * Amostra reduzida no canal Online (apenas 102 registros), o que impede testes de hipótese estatística robustos para este subgrupo.
   * Ausência de métricas de custo unitário e margem de lucro na base original.
 * **Melhorias Futuras:**
   * Aplicação de testes estatísticos de hipótese (ex.: Teste Mann-Whitney U) para validar a equivalência de distribuição entre gêneros.

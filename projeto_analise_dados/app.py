@@ -9,12 +9,13 @@ st.title('📊 Análise de Vendas - Alemanha (2019)')
 
 # 2. Função com cache para otimizar e carregar os dados de forma limpa
 @st.cache_data
+
 def load_data():
     # Carrega o arquivo CSV processado
     df = pd.read_csv('data/processed/query_valida.csv')
     
     # Converte para datetime e remove totalmente o horário, mantendo apenas a data pura (YYYY-MM-DD ou formato de data)
-    df['DATA'] = pd.to_datetime(df['DATA'], dayfirst=True, errors='coerce').dt.date
+    df['DATA'] = pd.to_datetime(df['DATA'], dayfirst=True, errors='coerce')
     # 2. Transforma explicitamente em texto no formato brasileiro (DD/MM/AAAA) eliminando o horário
     df['DATA'] = df['DATA'].dt.strftime('%d/%m/%Y')
     
@@ -34,15 +35,17 @@ canal = st.sidebar.selectbox(
 )
 
 # Filtro de Data Inicial baseado na menor data disponível na base
-data_minima = df['DATA'].min() # Já retorna um objeto date puro
+# Convertemos a primeira linha para data real apenas para pegar o valor mínimo do calendário
+data_minima = pd.to_datetime(df['DATA'], format='%d/%m/%Y', errors='coerce').min().date()
 data_selecionada = st.sidebar.date_input('Data Inicial:', data_minima)
 
+# Formata a data selecionada no calendário para o padrão 'DD/MM/AAAA' para comparar com a coluna
+data_selecionada_str = pd.to_datetime(data_selecionada).strftime('%d/%m/%Y')
+
 # --- 4. APLICAÇÃO DOS FILTROS NOS DADOS ---
-# Filtra o DataFrame considerando o canal escolhido e a data selecionada
-# Como df['DATA'] é do tipo date, convertemos a data selecionada para comparativo seguro
 df_filtrado = df[  
     (df['CANAL'] == canal) &
-    (df['DATA'] >= data_selecionada)
+    (pd.to_datetime(df['DATA'], format='%d/%m/%Y') >= pd.to_datetime(data_selecionada_str, format='%d/%m/%Y'))
 ]
 
 # Exibindo métrica rápida de registros na barra lateral

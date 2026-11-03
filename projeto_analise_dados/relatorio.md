@@ -1,8 +1,6 @@
-
 Relatório de Projeto: Análise de Vendas Empresa Desconhecida- Alemanha (2019)
 
-
-Este relatório sintetiza o desenvolvimento, a implementação técnica e a documentação do projeto final de análise de dados, integrando um pipeline robusto de ETL, um painel interativo em Streamlit e diretrizes profissionais de documentação.
+     Este relatório sintetiza o desenvolvimento, a implementação técnica e a documentação do projeto final de análise de dados, integrando um pipeline robusto de ETL, um painel interativo em Streamlit e diretrizes profissionais de documentação.
 
 1. Resumo Executivo
    Domínio dos Dados: Análise de vendas de um conjunto de dados da Alemanha referente ao ano de 2019, com valores padronizados em Euros (€).

@@ -1,3 +1,5 @@
+![imagem.capa](C:\Users\ANDREZA\Desktop\Projeto_Final_AndrezaCordeiro_T1-\projeto_analise_dados\imagem.capa.png)
+
 # 📊 Projeto Final: Visualização de Dados e Business Intelligence
 
 **Módulo 2**

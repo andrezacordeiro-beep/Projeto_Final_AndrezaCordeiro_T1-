@@ -286,7 +286,7 @@ Projeto_Final_AndrezaCordeiro_T1/
 
 ## 🔗 15. Links de Entrega
 
-* **Quadro de Tarefas (Kanban / GitHub Projects):** `https://github.com/users/seu-usuario/projects/1`
+* **Quadro de Tarefas (Kanban / GitHub Projects):** `https://github.com/andrezacordeiro-beep/Projeto_Final_AndrezaCordeiro_T1-.git`
 * **Repositório Oficial da Turma:** `https://github.com/organizacao-turma/repositorio-oficial`
 * **Publicação Social (LinkedIn):** `https://www.linkedin.com/in/seu-perfil`
 * **Vídeo de Demonstração (YouTube / Loom):** `https://www.youtube.com/watch?v=seu-video

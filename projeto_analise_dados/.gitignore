@@ -1,0 +1,40 @@
+# ==========================================
+# Arquivos de Dados (Baseados no script)
+# ==========================================
+# Ignora arquivos CSV brutos (raw) informados no script
+vendas.pf.csv
+canal.pf.csv
+
+# Ignora o arquivo CSV limpo gerado pelo script
+query_valida.csv
+
+# Se houver uma estrutura de pastas para dados, ignore o conteúdo delas
+data/raw/
+data/processed/
+# Caso queira ignorar qualquer CSV no projeto:
+# *.csv
+
+# ==========================================
+# Saídas da Análise (Output)
+# ==========================================
+# Ignora a pasta de imagens gerada (boxplot, histograma, etc.)
+output/imagens/
+output/
+
+# ==========================================
+# Configurações de Ambiente e IDE
+# ==========================================
+# Ignora configurações do VS Code (comum pelo caminho das pastas)
+.vscode/
+
+# Ignora ambientes virtuais (caso utilize)
+venv/
+env/
+.env
+
+# ==========================================
+# Arquivos Temporários do Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class

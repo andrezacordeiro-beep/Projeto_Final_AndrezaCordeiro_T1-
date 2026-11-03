@@ -50,7 +50,7 @@
 * **Fonte dos Dados:** Consulta SQL e extração do esquema público *Sales History (SH)* da Oracle Corporation.
 * **Link / Origem:** Domínio público / Exemplo padrão *Oracle Database Sample Schemas*.
 * **Período dos Dados:** Transações históricas registradas na base SH filtradas para o mercado alemão.
-* ** Dicionário de dados e colunas utilizadas:**
+* ** Dicionário de dados:**
 
   ![1793670796633](image/README/1793670796633.jpg)
 

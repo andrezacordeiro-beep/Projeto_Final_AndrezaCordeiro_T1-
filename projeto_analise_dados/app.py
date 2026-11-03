@@ -5,7 +5,7 @@ import plotly.express as px
 # 1. Configuração da página (deve ser sempre o primeiro comando do Streamlit)
 st.set_page_config(page_title="Análise de Vendas", layout="wide")
 
-st.title('📊 Análise de Vendas - Empresa Desconhecida (Alemanha 2019)') 
+st.title('📊 Análise de Vendas - Alemanha (2019)') 
 
 # 2. Função com cache para otimizar e carregar os dados de forma limpa
 @st.cache_data
@@ -13,12 +13,8 @@ def load_data():
     # Carrega o arquivo CSV processado
     df = pd.read_csv('data/processed/query_valida.csv')
     
-    # Converte a coluna 'DATA' para o formato datetime (padrão brasileiro DD/MM/AAAA)
-    # errors='coerce' transforma eventuais datas inválidas em valores nulos para não quebrar o app
-    df['DATA'] = pd.to_datetime(df['DATA'], dayfirst=True, errors='coerce')
-    
-    # Remove o horário (zera as horas para 00:00:00), mantendo o tipo datetime puro ideal para filtros
-    df['DATA'] = df['DATA'].dt.normalize()
+    # Converte para datetime e remove totalmente o horário, mantendo apenas a data pura (YYYY-MM-DD ou formato de data)
+    df['DATA'] = pd.to_datetime(df['DATA'], dayfirst=True, errors='coerce').dt.date
     
     return df
 
@@ -36,14 +32,15 @@ canal = st.sidebar.selectbox(
 )
 
 # Filtro de Data Inicial baseado na menor data disponível na base
-data_minima = df['DATA'].min().date() # Converte para o formato date do Python para o Streamlit
+data_minima = df['DATA'].min() # Já retorna um objeto date puro
 data_selecionada = st.sidebar.date_input('Data Inicial:', data_minima)
 
 # --- 4. APLICAÇÃO DOS FILTROS NOS DADOS ---
 # Filtra o DataFrame considerando o canal escolhido e a data selecionada
+# Como df['DATA'] é do tipo date, convertemos a data selecionada para comparativo seguro
 df_filtrado = df[  
     (df['CANAL'] == canal) &
-    (df['DATA'] >= pd.to_datetime(data_selecionada))
+    (df['DATA'] >= data_selecionada)
 ]
 
 # Exibindo métrica rápida de registros na barra lateral
@@ -83,7 +80,8 @@ elif tipo_grafico == 'Distribuição por Mês (Barras)':
     
     # Cria uma cópia ou coluna temporária formatada como ano-mês para agrupamento
     df_filtrado_copia = df_filtrado.copy()
-    df_filtrado_copia['mes_ano'] = df_filtrado_copia['DATA'].dt.to_period('M').astype(str)
+    # Converte para datetime temporariamente apenas para extrair o período do mês
+    df_filtrado_copia['mes_ano'] = pd.to_datetime(df_filtrado_copia['DATA']).dt.to_period('M').astype(str)
     df_mes = df_filtrado_copia.groupby('mes_ano')['VALOR_VENDIDO'].sum().reset_index()
     
     fig = px.bar(

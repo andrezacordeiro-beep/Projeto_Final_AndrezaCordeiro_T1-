@@ -1,6 +1,4 @@
-![imagem.capa](C:\Users\ANDREZA\Desktop\Projeto_Final_AndrezaCordeiro_T1-\projeto_analise_dados\imagem.capa.png)
-
-# 📊 Projeto Final: Visualização de Dados e Business Intelligence
+📊 Projeto Final: Visualização de Dados e Business Intelligence
 
 **Módulo 2**
 
@@ -12,8 +10,7 @@
 
 ---
 
-## 🎯 1. Pipeline ETL e Análise Exploratória de Vendas por Canal e Gênero (Base Alemanha)
-
+🎯 1. Pipeline ETL e Análise Exploratória de Vendas por Canal e Gênero (Base Alemanha)
 
 * **Descrição Breve:** Solução completa de engenharia e análise de dados que engloba extração, tratamento, saneamento, análise estatística descritiva e visualização gráfica de dados de vendas da Empresa Desconhecida na Alemanha no ano de 2019, integrados a um aplicativo interativo em Streamlit.
 * **Assunto Analisado:** Comportamento de consumo, distribuição de receita e volume de transações agrupados por canal de venda (Físico vs. Online) e perfil demográfico (Gênero do Cliente).
@@ -153,7 +150,7 @@ A análise descritiva da variável `VALOR_VENDIDO` no conjunto final tratado (`q
 ## 💬 8. Discussão e Conclusão
 
 * **Observação Apoiada em Evidências:** A mediana (€ 48,10) situa-se abaixo da média (€ 49,60), e o desvio-padrão elevado (€ 180,45) confirma que a média é inflacionada pelas poucas transações de valor extremamente alto (até € 1.730,50). Além disso, a proporção entre vendas físicas e online é de 69 para 1.
-* **Hipótese Operacional:** A baixíssima participação do canal Online (15 vendas) pode indicar que o sistema de vendas digitais estava em fase inicial de implementação no período amostrado ou que a operação na Alemanha era historicamente focada em pontos de venda presenciais.
+* **Hipótese Operacional:** A baixíssima participação do canal Online (102 vendas) pode indicar que o sistema de vendas digitais estava em fase inicial de implementação no período amostrado ou que a operação na Alemanha era historicamente focada em pontos de venda presenciais.
 * **Recomendação de Gestão:** Para acompanhamento do desempenho financeiro diário, a diretoria deve adotar a **Mediana** como indicador primário de meta por ticket, prevenindo que compras corporativas pontuais de valor elevado distorçam a visão sobre o comportamento do consumidor médio.
 
 ### Limites de Inferência (O que NÃO pode ser afirmado):
@@ -265,7 +262,7 @@ Projeto_Final_AndrezaCordeiro_T1/
 ## ⚠️ 13. Limitações e Melhorias Futuras
 
 * **Limitações Identificadas:**
-  * Amostra reduzida no canal Online (apenas 15 registros), o que impede testes de hipótese estatística robustos para este subgrupo.
+  * Amostra reduzida no canal Online (apenas 102 registros), o que impede testes de hipótese estatística robustos para este subgrupo.
   * Ausência de métricas de custo unitário e margem de lucro na base original.
 * **Melhorias Futuras:**
   * Aplicação de testes estatísticos de hipótese (ex.: Teste Mann-Whitney U) para validar a equivalência de distribuição entre gêneros.
@@ -286,7 +283,7 @@ Projeto_Final_AndrezaCordeiro_T1/
 
 ## 🔗 15. Links de Entrega
 
-* **Quadro de Tarefas (Kanban / GitHub Projects):** `https://github.com/users/seu-usuario/projects/1`
+* **Quadro de Tarefas (Kanban / GitHub Projects):** https://github.com/andrezacordeiro-beep/Projeto_Final_AndrezaCordeiro_T1-.git
 * **Repositório Oficial da Turma:** `https://github.com/organizacao-turma/repositorio-oficial`
 * **Publicação Social (LinkedIn):** `https://www.linkedin.com/in/seu-perfil`
 * **Vídeo de Demonstração (YouTube / Loom):** `https://www.youtube.com/watch?v=seu-video`

@@ -153,7 +153,7 @@ A análise descritiva da variável `VALOR_VENDIDO` no conjunto final tratado (`q
 ## 💬 8. Discussão e Conclusão
 
 * **Observação Apoiada em Evidências:** A mediana (€ 48,10) situa-se abaixo da média (€ 49,60), e o desvio-padrão elevado (€ 180,45) confirma que a média é inflacionada pelas poucas transações de valor extremamente alto (até € 1.730,50). Além disso, a proporção entre vendas físicas e online é de 69 para 1.
-* **Hipótese Operacional:** A baixíssima participação do canal Online (15 vendas) pode indicar que o sistema de vendas digitais estava em fase inicial de implementação no período amostrado ou que a operação na Alemanha era historicamente focada em pontos de venda presenciais.
+* **Hipótese Operacional:** A baixíssima participação do canal Online (102 vendas) pode indicar que o sistema de vendas digitais estava em fase inicial de implementação no período amostrado ou que a operação na Alemanha era historicamente focada em pontos de venda presenciais.
 * **Recomendação de Gestão:** Para acompanhamento do desempenho financeiro diário, a diretoria deve adotar a **Mediana** como indicador primário de meta por ticket, prevenindo que compras corporativas pontuais de valor elevado distorçam a visão sobre o comportamento do consumidor médio.
 
 ### Limites de Inferência (O que NÃO pode ser afirmado):

@@ -50,20 +50,11 @@
 * **Fonte dos Dados:** Consulta SQL e extração do esquema público *Sales History (SH)* da Oracle Corporation.
 * **Link / Origem:** Domínio público / Exemplo padrão *Oracle Database Sample Schemas*.
 * **Período dos Dados:** Transações históricas registradas na base SH filtradas para o mercado alemão.
-* **Colunas Utilizados:**
+* ** Dicionário de dados e colunas Utilizados:**
 
   ![1793670796633](image/README/1793670796633.jpg)
 
-  * `CUST_ID` / `ID_CLIENTE`: Identificador único do cliente.
-  * `CUST_FIRST_NAME` / `NOME_CLIENTE`: Primeiro nome do cliente.
-  * `CUST_GENDER` / `GENERO_CLIENTE`: Gênero do cliente (`M` / `F`).
-  * `CUST_VALID` / `CLIENTE_ATIVO`: Status do cadastro (`A` para Ativo/Aprovado, `I` para Inativo/Inválido).
-  * `COUNTRY_NAME` / `PAIS`: Nome do país da transação ("Germany" padronizado para "Alemanha").
-  * `PROD_ID` / `ID_PRODUTO`: Identificador do produto vendido.
-  * `CHANNEL_ID` / `ID_CANAL` & `CHANNEL_DESC` / `CANAL`: Código e descrição do canal de vendas.
-  * `QUANTITY_SOLD` / `QUANTIDADE_VENDIDA`: Quantidade de itens vendidos.
-  * `AMOUNT_SOLD` / `VALOR_VENDIDO`: Valor monetário total da transação (expresso em Euros - €).
-  * `TIME_ID` / `DATA`: Data da venda.
+
 * **Licença e Termos:** Dados públicos de exemplo para uso acadêmico e instrução.
 * **Dados Privados:** Não há uso de dados sensíveis reais ou protegidos pela LGPD/GDPR. Os registros são fictícios e sintéticos do schema Oracle.
   

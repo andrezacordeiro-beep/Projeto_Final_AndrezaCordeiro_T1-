@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from pathlib import Path
 
 # 1. Configuração da página (deve ser sempre o primeiro comando do Streamlit)
 st.set_page_config(page_title="Análise de Vendas", layout="wide")
@@ -11,8 +12,12 @@ st.title('📊 Análise de Vendas - Alemanha (2019)')
 @st.cache_data
 
 def load_data():
-    # Carrega o arquivo CSV processado
-    df = pd.read_csv('data/processed/query_valida.csv')
+    # Pega o diretório onde o app.py está e sobe um nível para a raiz do projeto
+    base_dir = Path(__file__).resolve().parent
+    csv_path = base_dir.parent / 'data' / 'processed' / 'query_valida.csv'
+    
+    df = pd.read_csv(csv_path)
+    return df
     
     # Converte para datetime e remove totalmente o horário, mantendo apenas a data pura (YYYY-MM-DD ou formato de data)
     df['DATA'] = pd.to_datetime(df['DATA'], dayfirst=True, errors='coerce')

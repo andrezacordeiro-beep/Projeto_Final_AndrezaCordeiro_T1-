@@ -21,7 +21,7 @@
 
 ## ❓ 2. Problema, Objetivo e Importância
 
-* **Pergunta Orientadora:** De que forma o valor vendido e o volume de transações se distribuem entre os canais de vendas (Físico vs. Online) e os gêneros dos clientes na região da Alemanha, e quais padrões ou *outliers* demandam ação estratégica?
+* **Pergunta Orientadora:** Como entender o comportamento de compra dos clientes, quais canais podem gerar mais faturamento e como esses dados ajudam a tomar melhores decisões no dia a dia do negócio?
 * **Público Interessado:** Gestores comerciais, analistas de negócios, equipes de marketing e executivos de operação de e-commerce e varejo físico.
 * **Relevância do Tema:** Compreender a concentração de receita e os hábitos de compra por canal evita investimentos ineficientes em marketing, otimiza o controle de estoque por canal e identifica potenciais discrepâncias ou erros de registro operacional.
 
@@ -53,12 +53,9 @@
 * ** Dicionário de dados:**
 
   ![1793670796633](image/README/1793670796633.jpg)
-
-
 * **Licença e Termos:** Dados públicos de exemplo para uso acadêmico e instrução.
 * **Dados Privados:** Não há uso de dados sensíveis reais ou protegidos pela LGPD/GDPR. Os registros são fictícios e sintéticos do schema Oracle.
-  
- 
+
 ---
 
 ## ⚙️ 5. Pipeline e Metodologia
@@ -280,7 +277,7 @@ Projeto_Final_AndrezaCordeiro_T1/
 
 ## 🔗 15. Links de Entrega
 
-* **Quadro de Tarefas (Kanban / GitHub Projects):** `https://github.com/andrezacordeiro-beep/Projeto_Final_AndrezaCordeiro_T1-.git`
-* **Repositório Oficial da Turma:** `https://github.com/organizacao-turma/repositorio-oficial`
-* **Publicação Social (LinkedIn):** `https://www.linkedin.com/in/seu-perfil`
-* **Vídeo de Demonstração (YouTube / Loom):** `https://www.youtube.com/watch?v=seu-video
+* **Quadro de Tarefas (Projetos Trello/GitHub):** `https://trello.com/b/Wcly0oyH/projeto-final-bi`
+* **Repositório Oficial da Turma:** `https://github.com/Visualizacao-Dados-BI-T1/Projeto_ZP.git`
+* **Publicação Social (LinkedIn):** `linkedin.com/in/andreza-cordeiro-6469bb95 `
+* **Vídeo de Demonstração (Google Drive):** `https://drive.google.com/file/d/1SZ8kEwowPdnkgyVLIxx1ju9OcY1nYBpr/view?usp=sharing`

@@ -169,7 +169,9 @@ Esta solução segue boas práticas de engenharia de dados e pode ser expandida 
 
 O projeto disponibiliza um painel interativo construído em Streamlit para exploração visual dinâmica dos dados.
 
-* **Link do Deploy (Produção):** [fbjrvdwbwnkmcbuwp7rtdx.streamlit.app](https://fbjrvdwbwnkmcbuwp7rtdx.streamlit.app/)
+
+- **Link do Deploy (Produção):** [Acessar Aplicação no Streamlit](https://fbjrvdwbwnkmcbuwp7rtdx.streamlit.app/)
+
 * **Funcionalidades do Painel:**
   * **Filtros Dinâmicos na Sidebar:** Seleção por intervalo de datas, filtro por gênero (`M`, `F`) e por canal de vendas (`Físico`, `Online`).
   * **Cards de Indicadores (KPIs):** Exibição em tempo real da Receita Total em Euros (€), Ticket Médio, Mediana e Total de Vendas Filtradas.
@@ -277,7 +279,7 @@ Projeto_Final_AndrezaCordeiro_T1/
 
 ## 🔗 15. Links de Entrega
 
-* **Quadro de Tarefas (Projetos Trello/GitHub):** `https://trello.com/b/Wcly0oyH/projeto-final-bi`
-* **Repositório Oficial da Turma:** `https://github.com/Visualizacao-Dados-BI-T1/Projeto_ZP.git`
-* **Publicação Social (LinkedIn):** `linkedin.com/in/andreza-cordeiro-6469bb95 `
-* **Vídeo de Demonstração (Google Drive):** `https://drive.google.com/file/d/1SZ8kEwowPdnkgyVLIxx1ju9OcY1nYBpr/view?usp=sharing`
+- **Quadro de Tarefas (Projetos Trello/GitHub):** [Quadro Trello](https://trello.com/b/Wcly0oyH/projeto-final-bi)
+- **Repositório Oficial da Turma:** [Repositório GitHub](https://github.com/Visualizacao-Dados-BI-T1/Projeto_ZP.git)
+- **Publicação Social (LinkedIn):** [Perfil no LinkedIn](https://linkedin.com/in/andreza-cordeiro-6469bb95)
+- **Vídeo de Demonstração (Google Drive):** [Assistir Vídeo](https://drive.google.com/file/d/1SZ8kEwowPdnkgyVLIxx1ju9OcY1nYBpr/view?usp=sharing)
